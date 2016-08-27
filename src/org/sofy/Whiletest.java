@@ -41,4 +41,4 @@ public class Whiletest {
         }
         System.out.println("Количество правильных ответов " + r + " Количество неверных ответов " + q);
     }
-    }
+}

@@ -1,9 +1,15 @@
-package org.sofy;
+package org.sofy.domain;
+
+import java.util.List;
 
 /**
- * Created by Софи on 27.08.2016.
+ * @author Софи
+ * @since 2016.08.27
  */
-public interface IQuiz {
-    void addQuestion(String question, String answer);
-    void removeQuestion(String question, String answer);
+public interface ITest {
+    boolean addQuiz(Quiz quiz);
+
+    boolean removeQuiz(Quiz quiz);
+
+    List<Quiz> listAll();
 }
