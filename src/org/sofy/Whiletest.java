@@ -11,7 +11,7 @@ public class Whiletest {
         return x;
     }
 
-    public static void main(String... args) {
+    public static void main(String[] args) {
         int r, q, i;
         r = 0;
         q = 0;
@@ -41,5 +41,4 @@ public class Whiletest {
         }
         System.out.println("Количество правильных ответов " + r + " Количество неверных ответов " + q);
     }
-
-}
+    }
